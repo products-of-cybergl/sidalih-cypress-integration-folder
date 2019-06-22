@@ -1,0 +1,14 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "multi project cypress test scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "phantomjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}
