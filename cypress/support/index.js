@@ -19,9 +19,17 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
+
+
 // agar error Vue tidak mematikan tes
 Cypress.on('uncaught:exception', (err, runnable) => {
   // returning false here prevents Cypress from
   // failing the test
   return false
 })
+
+// dua angka acak 
+var testId = Math.floor((Math.random() * 100) + 1);
+
+// angka acak untuk seed data NIK (ada kemungkinan konflik dengan NIK asli)
+var NIK = Math.floor((Math.random() * 10000000000000000) + 1);

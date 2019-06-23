@@ -1,5 +1,3 @@
-// cypress/integration/krisna/tes.spec.js
-
 /// <reference types="Cypress" />
 
 /* eslint-env mocha */
